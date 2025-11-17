@@ -1,4 +1,3 @@
-# Cyber Threat Detection System 
 # Cyber Threat Detection System
 
 This project is a modular SOC pipeline for detecting login-based threats using machine learning. It includes:
