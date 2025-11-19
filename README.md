@@ -1,12 +1,16 @@
-# Cyber Threat Detection System
+# SOC Pipeline: Modular Threat Detection & IOC intelligence 
 
-This project is a modular SOC pipeline for detecting login-based threats using machine learning. It includes:
+A production-ready, modular Security Operations Center (SOC) pipeline that detects suspicious login activity, enriches IPs with threat intelligence from multiple sources, and visualizes results in a real-time dashboard. Built for maintainability, analyst usability, and employer-facing clarity
 
--  Data ingestion and logging
--  Threat prediction via XGBoost
--  FastAPI interface for querying predictions
--  Streamlit dashboard for visualization
--  Alerting, retraining, and model evaluation modules
+# Features of the SOC Pipeline 
+
+- 🔍 Threat Detection: ML-based classification of login attempts using XGBoost
+- 🌐 IOC Enrichment: Integrates AbuseIPDB and VirusTotal for IP reputation checks
+- 📊 Streamlit Dashboard: Analyst-friendly interface with filters, metrics, and IOC visibility
+- ⚙️ FastAPI Backend: RESTful endpoints for real-time predictions and threat logging
+- 🧠 Model Retraining: Modular hooks for updating and evaluating the detection model
+- 🗃️ SQLite Storage: Lightweight, persistent threat event logging
+
 
 # How to Run
 
